@@ -1,0 +1,62 @@
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Strona 5</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            header, .images, footer {
+                padding: 10px;
+                border: 2px solid black;
+                text-align: center;
+            }
+            main {
+                border: 2px solid black;
+                padding: 15px;
+                display: flex;
+                justify-content: center;
+            }
+            .lewa {
+                border: 2px solid black;
+                width: 40%;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prawa {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+            .nawigacja {
+                border: 2px solid black;
+                height: 98px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prawasekcja {
+                border: 2px solid black;
+                height: 98px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Blok nagłówkowy</header>
+        <nav class="images">Blok sekcji obrazów</nav>
+        <main>
+            <section class="lewa">Sekcja lewa</section>
+            <section class="prawa">
+                <nav class="nawigacja">Blok nawigacyjny</nav>
+                <section class="prawasekcja">Blok sekcji prawej</section>
+            </section>
+        </main>
+        <footer>Blok stopki</footer>
+        <button onclick="location.href='index.html'">Powrót</button>
+    </body>
+</html>
