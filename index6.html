@@ -1,0 +1,45 @@
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Strona 6</title>
+        <style>
+            body {
+            }
+            header, footer {
+                padding: 10px;
+                border: 2px solid black;
+                text-align: center;
+            }
+            main {
+                display: flex;
+                border: 2px solid block;
+            }
+            section {
+                flex: 1;
+                border-left: 2px solid black;
+                border-right: 2px solid black;
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            section:first-child {
+                border-left: none;
+            }
+            section:last-child {
+                border-right: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Blok nagłówkowy</header>
+        <main>
+            <section class="pierwszy">Pierwszy blok sekcji</section>
+            <section class="drugi">Drugi blok sekcji</section>
+            <section class="trzeci">Trzeci blok sekcji</section>
+            <section class="czwarty">Czwarty blok sekcji</section>
+        </main>
+        <footer>Blok stopki</footer>
+        <button onclick="location.href='index.html'">Powrót</button>
+    </body>
+</html>
